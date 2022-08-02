@@ -11,5 +11,5 @@ A docker image running a NodeJS/Express application to easily generate and downl
 
 ## Usage
 
-Simply access your nodejs server under ```http://localhost:3000/<qr code content>``` - the generated QR Code will be downloaded automatically.
+Simply access your nodejs server under ```http://localhost:3000/qr/<qr code content>/<size>``` - the generated QR Code will be streamed automatically.
 
